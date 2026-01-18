@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is the **Video AI Primer** — a comprehensive knowledge base for AI video generation (January 2026 Edition). It contains 19 markdown documents (~420KB total) covering video AI models, prompting techniques, production workflows, and automation scripts.
+This is the **Video AI Primer** — a comprehensive knowledge base for AI video generation (January 2026 Edition). It contains 18 markdown documents (~400KB total) covering video AI models, prompting techniques, production workflows, and automation scripts.
 
 **Primary audience**: Expert-level video editors working with AI video generation tools.
 
@@ -26,7 +26,6 @@ This is the **Video AI Primer** — a comprehensive knowledge base for AI video 
 12_COST_OPTIMIZATION_GUIDE.md       # Budget & efficiency
 13_CLAUDE_CODE_VIDEO_TOOLKIT.md     # Python automation scripts
 14_AGENT_QUALITY_EVALS_FRAMEWORK.md # Automated quality assessment
-15_LEGAL_RIGHTS_PRIMER.md           # ToS & compliance
 16_VIDEO_AI_INFLUENCERS_GUIDE.md    # Who to follow
 17_FUTURE_PROOFING_ROADMAP.md       # 2026-2027 predictions
 18_RESEARCH_LOG.md                  # Source documentation
@@ -52,7 +51,6 @@ When answering questions from this knowledge base:
 | "Cost / pricing" | `12_COST_OPTIMIZATION_GUIDE.md` |
 | "Python script / automation" | `13_CLAUDE_CODE_VIDEO_TOOLKIT.md` |
 | "Quality evaluation" | `14_AGENT_QUALITY_EVALS_FRAMEWORK.md` |
-| "Legal / ToS" | `15_LEGAL_RIGHTS_PRIMER.md` |
 
 ## Key Models Covered
 

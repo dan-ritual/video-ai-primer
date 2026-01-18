@@ -34,7 +34,6 @@ Total Size:     ~400KB of curated knowledge
 | 12 | [Cost Optimization](#12-cost-optimization) | Budget & efficiency | ★★★☆☆ |
 | 13 | [Claude Code Toolkit](#13-claude-code-toolkit) | Automation scripts | ★★★★☆ |
 | 14 | [Agent Quality Evals](#14-agent-quality-evals) | Automated assessment | ★★★☆☆ |
-| 15 | [Legal Rights Primer](#15-legal-rights-primer) | ToS & compliance | ★★★☆☆ |
 | 16 | [Influencers Guide](#16-influencers-guide) | Who to follow | ★★★☆☆ |
 | 17 | [Future-Proofing Roadmap](#17-future-proofing-roadmap) | 2026-2027 predictions | ★★★☆☆ |
 | 18 | [Research Log](#18-research-log) | Source documentation | ★★☆☆☆ |
@@ -67,7 +66,6 @@ RENAMING SCHEME
 12_COST_OPTIMIZATION_GUIDE.md        ← COST_OPTIMIZATION_GUIDE.md
 13_CLAUDE_CODE_VIDEO_TOOLKIT.md      ← CLAUDE_CODE_VIDEO_TOOLKIT.md
 14_AGENT_QUALITY_EVALS_FRAMEWORK.md  ← AGENT_QUALITY_EVALS_FRAMEWORK.md
-15_LEGAL_RIGHTS_PRIMER.md            ← LEGAL_RIGHTS_PRIMER.md
 16_VIDEO_AI_INFLUENCERS_GUIDE.md     ← VIDEO_AI_INFLUENCERS_GUIDE.md
 17_FUTURE_PROOFING_ROADMAP.md        ← FUTURE_PROOFING_ROADMAP.md
 18_RESEARCH_LOG.md                   ← RESEARCH_LOG.md
@@ -272,19 +270,7 @@ Automated assessment:
 
 ---
 
-### Context (15-18)
-
-#### 15 Legal Rights Primer
-**File:** `15_LEGAL_RIGHTS_PRIMER.md`
-**Size:** ~23KB | **Read Time:** 20 min
-
-Compliance guidance:
-- ToS analysis by platform
-- Copyright considerations
-- Deepfake regulations
-- Commercial use rights
-
----
+### Context (16-18)
 
 #### 16 Influencers Guide
 **File:** `16_VIDEO_AI_INFLUENCERS_GUIDE.md`
@@ -483,7 +469,6 @@ Index:               As needed
 ├── 12_COST_OPTIMIZATION_GUIDE.md
 ├── 13_CLAUDE_CODE_VIDEO_TOOLKIT.md
 ├── 14_AGENT_QUALITY_EVALS_FRAMEWORK.md
-├── 15_LEGAL_RIGHTS_PRIMER.md
 ├── 16_VIDEO_AI_INFLUENCERS_GUIDE.md
 ├── 17_FUTURE_PROOFING_ROADMAP.md
 ├── 18_RESEARCH_LOG.md

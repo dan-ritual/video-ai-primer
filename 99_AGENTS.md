@@ -105,9 +105,6 @@ Query Intent Routing:
   "Quality metrics / evaluation":
     primary: 14_AGENT_QUALITY_EVALS_FRAMEWORK.md
 
-  "Legal / copyright / ToS":
-    primary: 15_LEGAL_RIGHTS_PRIMER.md
-
   "Who to follow / community":
     primary: 16_VIDEO_AI_INFLUENCERS_GUIDE.md
 
@@ -620,9 +617,6 @@ Index Fields:
 14_AGENT_QUALITY_EVALS_FRAMEWORK.md:
   - quality, evaluation, metrics, assessment, llm judge
 
-15_LEGAL_RIGHTS_PRIMER.md:
-  - legal, copyright, license, tos, commercial, rights
-
 16_VIDEO_AI_INFLUENCERS_GUIDE.md:
   - influencer, twitter, youtube, community, follow
 
@@ -755,7 +749,6 @@ Planned Updates:
 ├── 12_COST_OPTIMIZATION_GUIDE.md       # Cost
 ├── 13_CLAUDE_CODE_VIDEO_TOOLKIT.md     # Automation
 ├── 14_AGENT_QUALITY_EVALS_FRAMEWORK.md # Quality
-├── 15_LEGAL_RIGHTS_PRIMER.md           # Legal
 ├── 16_VIDEO_AI_INFLUENCERS_GUIDE.md    # Community
 ├── 17_FUTURE_PROOFING_ROADMAP.md       # Future
 ├── 18_RESEARCH_LOG.md                  # Sources

@@ -379,7 +379,6 @@ All 10 proposed primer tasks have been completed. The following comprehensive gu
 |------|-------------|------------|
 | `COST_OPTIMIZATION_GUIDE.md` | Cost reduction strategies | Per-model pricing, self-hosting, arbitrage |
 | `WORKFLOW_RECIPES_COOKBOOK.md` | 18 production-tested recipes | Talking head, cinematic, social, batch |
-| `LEGAL_RIGHTS_PRIMER.md` | Legal and IP landscape | ToS analysis, copyright, deepfake regs |
 
 ### Automation & Future Guides
 

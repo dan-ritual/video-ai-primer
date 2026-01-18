@@ -75,7 +75,7 @@ START: What's your primary need?
 COMMERCIAL USE?
 │
 ├─► YES
-│   ├─► CHECK: Platform commercial rights (see Legal Primer)
+│   ├─► CHECK: Platform commercial rights (review each platform's ToS)
 │   ├─► AVOID: Veo 3.1 (Pre-GA), free tiers, unclear ToS
 │   └─► PREFER: Wan (Apache 2.0), Runway Enterprise, Luma Plus+
 │
