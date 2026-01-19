@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is the **Video AI Primer** — a comprehensive knowledge base for AI video generation (January 2026 Edition). It contains 18 markdown documents (~400KB total) covering video AI models, prompting techniques, production workflows, and automation scripts.
+This is the **Video AI Primer** — a comprehensive knowledge base for AI video generation (January 2026 Edition). It contains 21 markdown documents (~560KB total) covering video AI models, prompting techniques, production workflows, and automation scripts.
 
 **Primary audience**: Expert-level video editors working with AI video generation tools.
 
@@ -29,7 +29,17 @@ This is the **Video AI Primer** — a comprehensive knowledge base for AI video 
 16_VIDEO_AI_INFLUENCERS_GUIDE.md    # Who to follow
 17_FUTURE_PROOFING_ROADMAP.md       # 2026-2027 predictions
 18_RESEARCH_LOG.md                  # Source documentation
+19_FFMPEG_POSTPROCESSING_PIPELINE.md # FFmpeg encoding & post-processing
+20_COMFYUI_ECOSYSTEM_POWERUSER_GUIDE.md # ComfyUI advanced ecosystem
 99_AGENTS.md                        # Agent retrieval optimization guide
+
+scripts/
+├── generate.py                     # Multi-model video generation
+├── batch.py                        # Batch processing pipeline
+├── quality.py                      # Automated quality assessment
+├── router.py                       # Intelligent model routing
+├── comfyui_client.py               # ComfyUI API integration
+└── requirements.txt                # Python dependencies
 ```
 
 ## Query Routing
@@ -51,6 +61,10 @@ When answering questions from this knowledge base:
 | "Cost / pricing" | `12_COST_OPTIMIZATION_GUIDE.md` |
 | "Python script / automation" | `13_CLAUDE_CODE_VIDEO_TOOLKIT.md` |
 | "Quality evaluation" | `14_AGENT_QUALITY_EVALS_FRAMEWORK.md` |
+| "Who to follow / community" | `16_VIDEO_AI_INFLUENCERS_GUIDE.md` |
+| "Future / predictions" | `17_FUTURE_PROOFING_ROADMAP.md` |
+| "FFmpeg / post-processing" | `19_FFMPEG_POSTPROCESSING_PIPELINE.md` |
+| "ComfyUI ecosystem / advanced" | `20_COMFYUI_ECOSYSTEM_POWERUSER_GUIDE.md` |
 
 ## Key Models Covered
 
