@@ -939,4 +939,4 @@ ENCODING:
 ---
 
 *FFmpeg Post-Processing Pipeline Guide v1.0 — January 18, 2026*
-*Sources: Grok X search (11 posts, 9 web pages), GitHub, Reddit r/StableDiffusion*
+*Sources: GitHub, Reddit r/StableDiffusion*

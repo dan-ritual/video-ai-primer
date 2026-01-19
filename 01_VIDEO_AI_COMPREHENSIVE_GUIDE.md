@@ -784,7 +784,7 @@ Based on available information, the PsyopAnime collective appears to use a workf
 
 1. **Midjourney** (likely with subscriptions) for initial image generation
 2. **Photoshop skills** for refinement and compositing
-3. **AI video generation tools** (pushing tech limits per Grok analysis)
+3. **AI video generation tools** (pushing tech limits )
 4. Satirical anime shorts focused on current events/commentary
 
 Their approach emphasizes:

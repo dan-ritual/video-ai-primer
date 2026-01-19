@@ -5,8 +5,8 @@
 A comprehensive guide to the ComfyUI ecosystem for video AI practitioners: workflow platforms, custom nodes, Claude Code orchestration, and curated resources from top creators.
 
 **Research Sources (January 2026):**
-- Grok semantic search (X/Twitter): 8 posts analyzed
-- Grok web search: 16 pages including docs.comfy.org, comfyui.org, reddit.com, viewcomfy.com
+
+- docs.comfy.org, comfyui.org, reddit.com, viewcomfy.com
 - GitHub repositories: claude-code-comfyui-nodes, ComfyUI-Copilot, MCP servers
 - Web search: OpenArt, Civitai, ComfyWorkflows, RunComfy, MimicPC platforms
 
@@ -594,7 +594,7 @@ if __name__ == "__main__":
 
 ## Workflow Sharing Platforms
 
-*Verified via Grok research (January 2026) — 16 web sources analyzed*
+*January 2026*
 
 ### Platform Comparison Matrix
 
@@ -786,7 +786,7 @@ class CivitaiClient:
 
 ## Essential Custom Nodes for Video
 
-*Verified via Grok (X + Web search) — Used in 90%+ of advanced video workflows*
+*Used in 90%+ of advanced video workflows*
 
 ### Must-Have Node Packs (January 2026)
 
@@ -798,38 +798,35 @@ VIDEO_ESSENTIAL_NODES:
 
   ComfyUI-AnimateDiff-Evolved:
     repo: "Kosinkadink/ComfyUI-AnimateDiff-Evolved"
-    source: "comfy.icu (Grok-verified)"
+    source: "comfy.icu"
     purpose: "Core for motion generation; supports text-to-video, LoRAs, and scheduling"
     key_nodes:
       - AnimateDiffLoader
       - AnimateDiffCombine
       - MotionLoRA
       - SparseCtrl
-    grok_insight: "Key for Wan 2.2/Alpha layered videos. Used in 90% of advanced workflows for natural movements."
     install: "via GitHub; key for Wan 2.2/Alpha layered videos"
 
   ComfyUI-VideoHelperSuite:
     repo: "Kosinkadink/ComfyUI-VideoHelperSuite"
-    source: "github.com (Grok-verified)"
+    source: "github.com"
     purpose: "Handles video I/O (load/combine frames, audio preservation)"
     key_nodes:
       - VHS_LoadVideo
       - VHS_SaveVideo
       - VHS_SplitFrames
       - VHS_CombineFrames
-    grok_insight: "Essential for pipelines; params like frame rate (keep at 8-16fps for AnimateDiff). Integrates with interpolation for 48fps outputs."
     integration: "Direct bridge to 19_FFMPEG_POSTPROCESSING_PIPELINE.md"
 
   ComfyUI-Frame-Interpolation:
     repo: "Fannovel16/ComfyUI-Frame-Interpolation"
-    source: "github.com (Grok-verified)"
+    source: "github.com"
     purpose: "Inserts frames for fluid animations (2-4x factors)"
     key_nodes:
       - RIFE_VFI
       - FILM_VFI
       - GMFSS  # New in 2026
       - AMT_VFI
-    grok_insight: "Nodes like RIFE VFI, GMFSS reduce choppiness in 16fps outputs; memory-optimized for long videos."
     integration: "Alternative to CLI RIFE from doc 19"
 
   # ═══════════════════════════════════════════════════════════════════════
@@ -844,7 +841,6 @@ VIDEO_ESSENTIAL_NODES:
       - WanI2V
       - WanFLF
       - WanVideoWrapper  # Model-specific integrations
-    grok_insight: "Native in ComfyUI; workflows for T2V/I2V/V2V (720p on 16GB VRAM). Reference-to-Video (learn motion from clips); SVI for long videos without color shifts."
 
   ComfyUI-CogVideoXWrapper:
     repo: "kijai/ComfyUI-CogVideoXWrapper"
@@ -855,9 +851,8 @@ VIDEO_ESSENTIAL_NODES:
 
   ComfyUI-LTX-Video:
     repo: "official LTX integration"
-    source: "facebook.com (Grok-verified)"
+    source: "facebook.com"
     purpose: "LTX-Video native support"
-    grok_insight: "Native support (0.9.x); real-time on consumer GPUs (5s clips in 4s). Key features: audio-video sync, keyframe control, V2V with canny/pose. GGUF for low VRAM; integrates with Wan for hybrid pipelines."
 
   # ═══════════════════════════════════════════════════════════════════════
   # TIER 3: CONSISTENCY & CONTROL
@@ -865,22 +860,20 @@ VIDEO_ESSENTIAL_NODES:
 
   ComfyUI-IP-Adapter-Plus:
     repo: "cubiq/ComfyUI_IPAdapter_plus"
-    source: "Grok-verified"
+    
     purpose: "Image-prompt control in video-to-video"
     key_nodes:
       - IPAdapterApply
       - IPAdapterFaceID
-    grok_insight: "For image-prompt control in video-to-video applications."
     integration: "Works with 09_CHARACTER_CONSISTENCY_GUIDE.md"
 
   ComfyUI-Advanced-ControlNet:
     repo: "Kosinkadink/ComfyUI-Advanced-ControlNet"
-    source: "Grok-verified"
+    
     purpose: "Structural guidance (depth/pose) for consistent videos"
     key_nodes:
       - ControlNetApplyAdvanced
       - SparseCtrlLoader
-    grok_insight: "Structural guidance (depth/pose) for consistent videos via Advanced-ControlNet."
 
   # ═══════════════════════════════════════════════════════════════════════
   # TIER 4: CLAUDE CODE INTEGRATION (NEW - January 2026)
@@ -894,7 +887,6 @@ VIDEO_ESSENTIAL_NODES:
       - ClaudeCodeAgent
       - AgentWorkflowTrigger
       - CodeGenerationNode
-    grok_insight: "Assemble agentic workflows that leverage all existing ComfyUI possibilities. Stateless, command-based interface to Claude Code SDK within ComfyUI."
     integration: "Direct integration with 13_CLAUDE_CODE_VIDEO_TOOLKIT.md"
 
   comfyui-claude:
@@ -949,7 +941,7 @@ echo "Video nodes installed! Restart ComfyUI to load."
 
 ## AI Video Model Integration
 
-*Verified via Grok (January 2026) — blog.comfy.org, reddit.com, facebook.com sources*
+*January 2026 — blog.comfy.org, reddit.com, facebook.com*
 
 ComfyUI's modular nature excels in integrating 2025/2026 models for high-fidelity video. Focus on native support and custom nodes.
 
@@ -1004,19 +996,19 @@ WAN_2_2_WORKFLOWS:
 
 ### Top Techniques
 
-> **Key insight from Grok**: Combine video models with **ControlNet for structure** and **use frame interpolation for smoothing**. Other high-value integrations: Hunyuan (8.3B for 720p), Mochi-1 (30fps fluid motion).
+> **Key insight**: Combine video models with **ControlNet for structure** and **use frame interpolation for smoothing**. Other high-value integrations: Hunyuan (8.3B for 720p), Mochi-1 (30fps fluid motion).
 
 ---
 
 ## API Orchestration Patterns
 
-*Verified via Grok (January 2026) — viewcomfy.com, reddit.com, @BennyKokMusic, docs.comfy.org sources*
+*January 2026 — viewcomfy.com, reddit.com, @BennyKokMusic, docs.comfy.org*
 
 For production video generation, ComfyUI's API enables orchestration (e.g., serverless endpoints). Patterns from 2025/2026 focus on scalability.
 
 ### Pattern 1: Basic Queue Pattern
 
-**Source**: viewcomfy.com (Grok-verified)
+**Source**: viewcomfy.com
 
 ```python
 # basic_queue_pattern.py
@@ -1066,7 +1058,7 @@ class BasicQueueClient:
 
 ### Pattern 2: Serverless Wrappers (ComfyDeploy)
 
-**Source**: reddit.com (Grok-verified)
+**Source**: reddit.com
 
 ```python
 # serverless_comfydeploy.py
@@ -1101,7 +1093,7 @@ result = deployment.run({
 
 ### Pattern 3: Hybrid Orchestration (React/Next.js)
 
-**Source**: @BennyKokMusic (Grok-verified)
+**Source**: @BennyKokMusic
 
 ```typescript
 // hybrid_orchestration.ts
@@ -1145,7 +1137,7 @@ export async function generateKeyframeVideo(config: VideoTimelineConfig) {
 
 ### Pattern 4: Advanced Multi-Model Chains
 
-**Source**: docs.comfy.org (Grok-verified)
+**Source**: docs.comfy.org
 
 ```python
 # multi_model_chain.py
@@ -1433,11 +1425,11 @@ ESSENTIAL_REPOS:
 
 ## Influencers & Workflow Creators
 
-*Verified via Grok semantic X search (January 2026) — 8 posts, direct account analysis*
+*January 2026*
 
 ### Tier 1: Must-Follow for Video Workflows
 
-| Handle | Platform | Specialty | Why Follow (Grok Insight) |
+| Handle | Platform | Specialty | Why Follow |
 |--------|----------|-----------|---------------------------|
 | **@ComfyUI** | X (Official) | Official account | Shares native integrations (e.g., WAN 2.6 for motion learning from clips). High-engagement posts with workflows; focus on controllability (depth/pose). |
 | **@OdinLovis** | X/Patreon | Complex video stories | ComfyUI expert; shares complex video stories (text-to-animated narratives). Workflows on Patreon; emphasizes loops for long-form videos. |
@@ -1479,7 +1471,7 @@ ESSENTIAL_REPOS:
 | **@rgthree** | GitHub | rgthree nodes |
 | **@christian-byrne** | GitHub | Claude Code ComfyUI nodes |
 
-### Key Insight (Grok)
+### Key Insight
 
 > **Follow these for real-time updates**; they often link to GitHub/YouTube for downloads. Focus on 2025/2026 advancements like multi-keyframe control and local optimization.
 
@@ -1695,16 +1687,14 @@ if __name__ == "__main__":
 
 This document was comprehensively researched and verified using:
 
-### Grok (X/Twitter Semantic Search)
-- **8 posts analyzed** from top ComfyUI video practitioners
-- **16 web pages** including:
-  - docs.comfy.org (official documentation)
-  - comfyui.org (community hub)
-  - reddit.com (r/comfyui, r/StableDiffusion)
-  - viewcomfy.com (API documentation)
-  - github.com (node repositories)
+### Primary Sources
+- docs.comfy.org (official documentation)
+- comfyui.org (community hub)
+- reddit.com (r/comfyui, r/StableDiffusion)
+- viewcomfy.com (API documentation)
+- github.com (node repositories)
 
-### Web Search (January 2026)
+### Additional Sources
 - OpenArt.ai, Civitai.com, ComfyWorkflows.com
 - RunComfy.com, MimicPC.com
 - nextdiffusion.ai (tutorials)

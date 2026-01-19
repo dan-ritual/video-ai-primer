@@ -215,7 +215,7 @@ Using identical start/end frames creates seamless loops!
 
 ## High-Engagement Creators
 
-*The following creators were identified via Grok search on X (January 2026) as having the highest engagement on AI video workflow content. These are practitioners who share hands-on, tutorial-style content rather than just hype.*
+*The following creators were have the highest engagement on AI video workflow content. These are practitioners who share hands-on, tutorial-style content rather than just hype.*
 
 ### Top Engagement Tier (1,000+ likes regularly)
 
