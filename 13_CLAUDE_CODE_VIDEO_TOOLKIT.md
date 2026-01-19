@@ -1406,7 +1406,7 @@ async def generate_video(ack, command, client):
 
 ## Multi-Agent Orchestration
 
-*New Section — Grok-Verified Patterns (January 2026)*
+*New Section — Patterns (January 2026)*
 
 ### Claude-Flow Multi-Agent Framework
 

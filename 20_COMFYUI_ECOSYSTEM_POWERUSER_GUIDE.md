@@ -596,7 +596,7 @@ if __name__ == "__main__":
 
 *Verified via Grok research (January 2026) — 16 web sources analyzed*
 
-### Platform Comparison Matrix (Grok-Verified)
+### Platform Comparison Matrix
 
 | Platform | Key Features | Strengths for Video | Popular Video Workflows |
 |----------|--------------|---------------------|-------------------------|
@@ -788,7 +788,7 @@ class CivitaiClient:
 
 *Verified via Grok (X + Web search) — Used in 90%+ of advanced video workflows*
 
-### Must-Have Node Packs (Grok-Verified January 2026)
+### Must-Have Node Packs (January 2026)
 
 ```yaml
 VIDEO_ESSENTIAL_NODES:
@@ -905,7 +905,7 @@ VIDEO_ESSENTIAL_NODES:
       - ClaudeVision
 ```
 
-### Installation Note (Grok-Verified)
+### Installation Note
 
 > **From Reddit practitioners**: Top practitioners emphasize combining these nodes with **quantization (e.g., GGUF)** for low-VRAM runs on consumer GPUs. Install via **ComfyUI Manager** for easiest dependency handling.
 
@@ -953,7 +953,7 @@ echo "Video nodes installed! Restart ComfyUI to load."
 
 ComfyUI's modular nature excels in integrating 2025/2026 models for high-fidelity video. Focus on native support and custom nodes.
 
-### Model Integration Matrix (Grok-Verified)
+### Model Integration Matrix
 
 | Model | Source | ComfyUI Support | Key Capabilities | VRAM Requirement |
 |-------|--------|-----------------|------------------|------------------|
@@ -1002,7 +1002,7 @@ WAN_2_2_WORKFLOWS:
     source: "runcomfy.com/comfyui-workflows/wan-2-2-animate-v2"
 ```
 
-### Top Techniques (Grok-Verified)
+### Top Techniques
 
 > **Key insight from Grok**: Combine video models with **ControlNet for structure** and **use frame interpolation for smoothing**. Other high-value integrations: Hunyuan (8.3B for 720p), Mochi-1 (30fps fluid motion).
 
@@ -1435,7 +1435,7 @@ ESSENTIAL_REPOS:
 
 *Verified via Grok semantic X search (January 2026) — 8 posts, direct account analysis*
 
-### Tier 1: Must-Follow for Video Workflows (Grok-Verified)
+### Tier 1: Must-Follow for Video Workflows
 
 | Handle | Platform | Specialty | Why Follow (Grok Insight) |
 |--------|----------|-----------|---------------------------|
