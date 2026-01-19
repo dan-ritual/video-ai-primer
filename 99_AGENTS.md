@@ -18,6 +18,31 @@ The goal is maximum retrieval accuracy and response quality when agents query th
 
 ---
 
+## Automation Scripts
+
+Production-ready Python scripts for immediate execution:
+
+```
+scripts/
+├── generate.py       ← Multi-model video generation
+├── batch.py          ← Batch processing pipeline
+├── quality.py        ← Automated quality assessment
+├── router.py         ← Intelligent model routing
+├── comfyui_client.py ← ComfyUI API integration
+└── requirements.txt  ← Dependencies
+```
+
+### Quick Start
+
+```bash
+pip install -r scripts/requirements.txt
+python scripts/generate.py "cinematic sunrise over mountains" --model kling
+python scripts/batch.py prompts.json --concurrent 5
+python scripts/quality.py output.mp4
+```
+
+---
+
 ## Quick Reference Card
 
 ```
