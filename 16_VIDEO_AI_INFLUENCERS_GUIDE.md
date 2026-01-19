@@ -1,8 +1,8 @@
 # Video AI Influencers & Tastemakers Guide
 
-*January 2026 Edition — January 2026 Edition*
+*January 2026 Edition*
 
-The definitive social graph for staying at the bleeding edge of AI video generation.
+Who to follow for the latest in AI video generation.
 
 ---
 
@@ -62,7 +62,7 @@ TOOL STACK (Confirmed via community reports):
 └── Philosophy: "The tool isn't what matters—it's the craft"
 
 KEY INSIGHT:
-PsyopAnime demonstrates that elite results come from
+PsyopAnime demonstrates that strong results come from
 combining multiple tools + traditional post-production skills.
 Not relying on any single model.
 

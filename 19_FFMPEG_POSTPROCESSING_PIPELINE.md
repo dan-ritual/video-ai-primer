@@ -1,6 +1,6 @@
 # FFmpeg Post-Processing Pipeline Guide
 
-*January 2026 Edition — Grok-Verified Cutting-Edge Workflows*
+*January 2026 Edition*
 
 Advanced CLI automation for AI video post-processing: RIFE interpolation, Real-ESRGAN upscaling, batch pipelines, and agentic editing.
 
@@ -24,7 +24,7 @@ Advanced CLI automation for AI video post-processing: RIFE interpolation, Real-E
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│              ELITE FFmpeg POST-PROCESSING PIPELINE                       │
+│              FFmpeg POST-PROCESSING PIPELINE                             │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
 │  AI VIDEO OUTPUT                                                        │

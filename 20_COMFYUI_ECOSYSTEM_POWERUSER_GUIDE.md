@@ -2,7 +2,7 @@
 
 *January 2026 Edition — Workflows, Resources & Claude Code Integration*
 
-The definitive guide to the ComfyUI ecosystem for elite video AI practitioners: workflow platforms, custom nodes, Claude Code orchestration, and curated resources from top creators.
+A comprehensive guide to the ComfyUI ecosystem for video AI practitioners: workflow platforms, custom nodes, Claude Code orchestration, and curated resources from top creators.
 
 **Research Sources (January 2026):**
 - Grok semantic search (X/Twitter): 8 posts analyzed
@@ -64,7 +64,7 @@ The definitive guide to the ComfyUI ecosystem for elite video AI practitioners: 
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Why ComfyUI Dominates Video AI Workflows
+### Why ComfyUI Works Well for Video AI
 
 | Aspect | ComfyUI Advantage | Alternative |
 |--------|-------------------|-------------|
