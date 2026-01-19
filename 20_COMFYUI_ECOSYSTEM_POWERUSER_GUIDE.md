@@ -2,8 +2,6 @@
 
 *January 2026 Edition — Workflows, Resources & Claude Code Integration*
 
-**Version 1.1 — Research-Verified Edition**
-
 The definitive guide to the ComfyUI ecosystem for elite video AI practitioners: workflow platforms, custom nodes, Claude Code orchestration, and curated resources from top creators.
 
 **Research Sources (January 2026):**
@@ -1721,6 +1719,5 @@ This document was comprehensively researched and verified using:
 ---
 
 *ComfyUI Ecosystem Power User Guide v1.1 — January 18, 2026*
-*Research-Verified Edition (Grok + Web Search + Reddit)*
 *For use with: ComfyUI 0.3+, Claude Code, Python 3.10+*
 *Cross-references: 02, 03, 06, 07, 09, 13, 16, 19*
