@@ -50,7 +50,7 @@ CORPUS METADATA
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Domain:          AI Video Generation
 Temporal Scope:  January 2026 (current)
-Total Files:     20 markdown documents
+Total Files:     21 markdown documents
 Total Size:      ~420 KB
 Primary Topics:  Video AI models, prompting, workflows,
                  platforms, image-to-video, production
@@ -139,6 +139,14 @@ Query Intent Routing:
   "Overview / getting started":
     primary: 00_INDEX.md
     secondary: 01_VIDEO_AI_COMPREHENSIVE_GUIDE.md
+
+  "FFmpeg / post-processing / encoding":
+    primary: 19_FFMPEG_POSTPROCESSING_PIPELINE.md
+    secondary: 13_CLAUDE_CODE_VIDEO_TOOLKIT.md
+
+  "ComfyUI advanced / ecosystem / custom nodes":
+    primary: 20_COMFYUI_ECOSYSTEM_POWERUSER_GUIDE.md
+    secondary: 06_COMFYUI_NODE_WORKFLOWS_GUIDE.md
 ```
 
 ---
@@ -212,6 +220,24 @@ Chunks:
 - "fal.ai Integration" → API wrapper code
 - "Batch Processing" → Multi-video pipelines
 - "Quality Checking" → Automated validation
+```
+
+#### 19_FFMPEG_POSTPROCESSING_PIPELINE.md
+```
+Chunks:
+- "FFmpeg Command Reference" → Common encoding patterns
+- "Output Formats" → Codec selection and settings
+- "Post-Processing Workflows" → Color grading, upscaling
+- "Batch Rendering" → Multi-file output pipelines
+```
+
+#### 20_COMFYUI_ECOSYSTEM_POWERUSER_GUIDE.md
+```
+Chunks:
+- "Custom Nodes Guide" → Installing and managing nodes
+- "Advanced Workflows" → Complex multi-model pipelines
+- "Ecosystem Overview" → ComfyUI Manager, popular node packs
+- "Performance Tuning" → VRAM optimization, queue management
 ```
 
 ---
@@ -555,6 +581,16 @@ Freshness: January 2026
 ├── ← 05_PLATFORM_HARNESS_GUIDE.md (APIs)
 ├── ← 11_WORKFLOW_RECIPES_COOKBOOK.md (workflows)
 └── → 14_AGENT_QUALITY_EVALS_FRAMEWORK.md (quality)
+
+19_FFMPEG_POSTPROCESSING_PIPELINE.md
+├── ← 13_CLAUDE_CODE_VIDEO_TOOLKIT.md (automation)
+├── → 11_WORKFLOW_RECIPES_COOKBOOK.md (production recipes)
+└── → 12_COST_OPTIMIZATION_GUIDE.md (encoding efficiency)
+
+20_COMFYUI_ECOSYSTEM_POWERUSER_GUIDE.md
+├── ← 06_COMFYUI_NODE_WORKFLOWS_GUIDE.md (basics)
+├── → 13_CLAUDE_CODE_VIDEO_TOOLKIT.md (API integration)
+└── → 11_WORKFLOW_RECIPES_COOKBOOK.md (workflows)
 ```
 
 ---
@@ -650,6 +686,12 @@ Index Fields:
 
 18_RESEARCH_LOG.md:
   - research, source, citation, reference, log
+
+19_FFMPEG_POSTPROCESSING_PIPELINE.md:
+  - ffmpeg, post-processing, encoding, rendering, output, codec, transcoding
+
+20_COMFYUI_ECOSYSTEM_POWERUSER_GUIDE.md:
+  - comfyui, advanced, ecosystem, nodes, custom nodes, manager, power user
 ```
 
 ---
@@ -734,11 +776,20 @@ For [query topic], I recommend [alternative resource or web search]."
 ## Version Control
 
 ```yaml
-Version: 1.0
-Date: January 18, 2026
+Version: 1.1
+Date: January 19, 2026
 Author: Video AI Primer Team
 
 Changes:
+  1.1:
+    - Updated document count to 21 (added docs 19, 20)
+    - Added routing for FFmpeg post-processing (doc 19)
+    - Added routing for ComfyUI advanced ecosystem (doc 20)
+    - Added semantic chunks for docs 19 and 20
+    - Added cross-reference graph entries for docs 19 and 20
+    - Added keywords for docs 19 and 20
+    - Updated file list in appendix
+
   1.0:
     - Initial release
     - Full corpus documentation
@@ -747,7 +798,7 @@ Changes:
     - Embedding hints
 
 Planned Updates:
-  1.1:
+  1.2:
     - Add real usage analytics
     - Refine routing based on query patterns
     - Update for new model releases
@@ -777,6 +828,8 @@ Planned Updates:
 ├── 16_VIDEO_AI_INFLUENCERS_GUIDE.md    # Community
 ├── 17_FUTURE_PROOFING_ROADMAP.md       # Future
 ├── 18_RESEARCH_LOG.md                  # Sources
+├── 19_FFMPEG_POSTPROCESSING_PIPELINE.md # Post-processing
+├── 20_COMFYUI_ECOSYSTEM_POWERUSER_GUIDE.md # Advanced ComfyUI
 ├── 99_AGENTS.md                        # This file
 ├── index.html                          # Web viewer
 └── /archive/
@@ -785,5 +838,5 @@ Planned Updates:
 
 ---
 
-*AGENTS.md v1.0 — January 18, 2026*
+*AGENTS.md v1.1 — January 19, 2026*
 *Optimized for Claude Code, OpenCode, Amp, Codex, and custom agents*

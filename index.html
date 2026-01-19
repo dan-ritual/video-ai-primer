@@ -337,6 +337,8 @@ if(__exports != exports)module.exports = exports;return module.exports}));
 
 You have access to the **Video AI Primer** (January 2026), a 21-document knowledge base (~550KB) for AI video generation.
 
+⚠️ **Freshness**: Video AI evolves rapidly. This corpus reflects Jan 2026. Supplement with web search for new releases, pricing changes, or platform updates.
+
 ## Document Routing
 
 | Query Type | Primary Document |
@@ -346,7 +348,7 @@ You have access to the **Video AI Primer** (January 2026), a 21-document knowled
 | "Template for X" | 04_PROMPT_TEMPLATE_LIBRARY.md |
 | "Platform API" | 05_PLATFORM_HARNESS_GUIDE.md |
 | "ComfyUI workflow" | 06_COMFYUI_NODE_WORKFLOWS_GUIDE.md |
-| "ComfyUI ecosystem/platforms" | 20_COMFYUI_ECOSYSTEM_POWERUSER_GUIDE.md |
+| "ComfyUI ecosystem" | 20_COMFYUI_ECOSYSTEM_POWERUSER_GUIDE.md |
 | "Image model for frames" | 07_IMAGE_MODELS_STATE_OF_UNION.md |
 | "First-last frame / I2V" | 08_START_STOP_FRAME_DEEP_DIVE.md |
 | "Character consistency" | 09_CHARACTER_CONSISTENCY_GUIDE.md |
@@ -354,26 +356,37 @@ You have access to the **Video AI Primer** (January 2026), a 21-document knowled
 | "Production recipe" | 11_WORKFLOW_RECIPES_COOKBOOK.md |
 | "Cost / pricing" | 12_COST_OPTIMIZATION_GUIDE.md |
 | "Python automation" | 13_CLAUDE_CODE_VIDEO_TOOLKIT.md |
-| "FFmpeg / upscaling" | 19_FFMPEG_POSTPROCESSING_PIPELINE.md |
+| "Quality evaluation" | 14_AGENT_QUALITY_EVALS_FRAMEWORK.md |
+| "Who to follow" | 16_VIDEO_AI_INFLUENCERS_GUIDE.md |
+| "Future / roadmap" | 17_FUTURE_PROOFING_ROADMAP.md |
+| "FFmpeg / post-process" | 19_FFMPEG_POSTPROCESSING_PIPELINE.md |
 
-## Cross-References
+## Automation Scripts
 
-| If you need... | Primary Doc | Supporting Docs |
-|----------------|-------------|-----------------|
-| Post-process videos | 19 | 13, 20 |
-| ComfyUI orchestration | 20 | 06, 13, 19 |
-| Claude Code + ComfyUI | 13, 20 | 19 |
-| Find workflows/influencers | 20 | 16 |
+Production-ready Python in \`scripts/\`:
+\`\`\`
+pip install -r scripts/requirements.txt
+python scripts/generate.py "prompt" --model kling
+python scripts/batch.py prompts.json --concurrent 5
+python scripts/quality.py output.mp4
+\`\`\`
 
-## Quick Start
-Read 00_INDEX.md for navigation, 99_AGENTS.md for detailed routing.
+## Web-Capable Agents
+
+Fetch routing guide directly:
+\`\`\`
+https://dan-ritual.github.io/video-ai-primer/99_AGENTS.md
+\`\`\`
 
 ## Key Models
-- Commercial: Veo 3.1, Kling 2.6, Sora 2, Runway Gen-4.5
-- Open Source: Wan 2.1-2.6, LTX-2, HunyuanVideo
-- Image: Niji 7, FLUX.2, Nano Banana Pro
+- **Commercial**: Veo 3.1, Kling 2.6, Sora 2, Runway Gen-4.5
+- **Open Source**: Wan 2.1-2.6, LTX-2, HunyuanVideo
+- **Image**: Niji 7, FLUX.2, Nano Banana Pro
 
-*Video AI Primer v1.1 — January 2026*`;
+## Quick Start
+Read 00_INDEX.md for navigation, 99_AGENTS.md for full routing details.
+
+*Video AI Primer v1.2 — January 2026*`;
 
         // Document cache for fetched content
         const documentCache = new Map();
